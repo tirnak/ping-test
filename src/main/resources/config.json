@@ -1,0 +1,19 @@
+{
+  "hosts":["tirnak.org","google.com"],
+  "output_file":"../result.log",
+  "icmp":{
+    "delay" : 3,
+    "options" : "-c 1"
+  },
+  "http":{
+    "delay" : 5,
+    "timeout" : 30
+  },
+  "tracert":{
+    "delay" : 2,
+    "options" : ""
+  },
+  "report":{
+    "url":"tirnak.org"
+  }
+}
